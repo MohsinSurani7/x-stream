@@ -1,0 +1,10 @@
+[env]
+# FFmpeg core paths
+FFMPEG_DIR = "C:\\ffmpeg_full\\ffmpeg-master-latest-win64-gpl-shared"
+# Ye line rusty_ffmpeg ke liye sabse zaroori hai
+FFMPEG_LIBS_DIR = "C:\\ffmpeg_full\\ffmpeg-master-latest-win64-gpl-shared\\lib"
+# Headers ka path
+FFMPEG_INCLUDE_DIR = "C:\\ffmpeg_full\\ffmpeg-master-latest-win64-gpl-shared\\include"
+
+# Bindgen/Clang setup
+LIBCLANG_PATH = "C:\\Program Files\\LLVM\\bin"

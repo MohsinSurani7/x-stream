@@ -1,0 +1,32 @@
+
+# Compilation and build artifacts
+target/
+**/*.rs.bk
+*.pdb
+*.dll
+*.exe
+*.lib
+*.so
+*.dylib
+
+# Visual output and debug samples (build-generated)
+*.mp4
+*.ppm
+*.png
+*.jpg
+*.jpeg
+
+# Machine Learning models (can be large, usually downloaded/generated)
+*.onnx
+*.pb
+*.weights
+*.h5
+*.tflite
+
+# Logs and development tools
+*.log
+*.txt
+.idea/
+.vscode/
+tmp/
+.DS_Store

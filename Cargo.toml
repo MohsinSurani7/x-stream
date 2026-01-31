@@ -1,0 +1,16 @@
+[package]
+name = "x-stream"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsmpeg = "0.16"
+anyhow = "1.0"
+tokio = { version = "1", features = ["full"] }
+ndarray = "0.15"
+onnxruntime = "0.0.14"
+lazy_static = "1.4"
+libc = "0.2"
+image = "0.24"
+clap = { version = "4.0", features = ["derive"] }
+crossbeam-channel = "0.5"
